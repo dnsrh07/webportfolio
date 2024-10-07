@@ -10,7 +10,7 @@ nav {
 
 .navbar-brand {
 	font-family: Monoton !important;
-	font-size: 2.5rem !important;
+	font-size: 5vh !important;
 	font-weight: 500 !important;
 	line-height: 24px !important
 }
@@ -79,6 +79,10 @@ h4 {
 	text-align: center !important;
 	color: black !important;
 }
+
+.card-text {
+	font-size: 2vw;
+}
 }
 
 /*Texts from M screens Start*/
@@ -121,7 +125,12 @@ h4 {
 	text-align: center !important;
 	color: black !important;
 }
+
+.card-text {
+	font-size: 2vw;
 }
+}
+
 /*Texts from M screens End*/
 
 #aboutme {
@@ -211,6 +220,10 @@ h4 {
 	background-color: rgba(0,0,0,0.1); 
 }*/
 
+label {
+	font-size: 3vw !important;
+}
+
 #submitbutton {
 	background-color: black;
   border: solid;
@@ -219,6 +232,6 @@ h4 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 3vw;
   border-radius: 25px;
 }
